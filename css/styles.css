@@ -702,9 +702,11 @@ label {
   color: var(--lightslate, #8e8f99);
 }
 
-.label-form {
-  position: relative;
-}
+/* .field.icon-form {
+  top: 29px;
+  bottom: 11px;
+  left: 16px;
+} */
 .icon-form {
   fill: currentColor;
 }
@@ -712,12 +714,12 @@ label {
   display: flex;
   justify-content: center;
   margin-top: 20px;
+  margin-bottom: 36px;
 }
 .button.send {
   color: var(--white);
   padding: 16px 32px;
   border-radius: 4px;
-
   justify-content: center;
   background: var(--iris, #4d5ae5);
   box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);

@@ -568,6 +568,7 @@ img {
 
 .form-input {
   /* background-color: transparent; */
+
   border-radius: 4px;
   border: 1px solid var(--white, #fff);
   /* box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15); */
@@ -855,8 +856,9 @@ img {
   letter-spacing: 0.48px;
 }
 
-input::placeholder {
-  color: var(--white);
+.form-input,
+.form-input::placeholder {
+  color: white;
   font-style: normal;
   font-weight: 400;
   line-height: 24px; /* 200% */
